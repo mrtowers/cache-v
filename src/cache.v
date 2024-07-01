@@ -12,7 +12,7 @@ module cachev
 	keys are accessed.
 */
 
-[heap]
+@[heap]
 pub struct Cache[T] {
 	capacity int
 
